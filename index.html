@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioverse Bot Screenshots</title>
+<style>
+:root{--bg:#f7f4f7;--ink:#231a24;--muted:#6d6170;--line:#e6dde7;--accent:#c81e6e;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#171218;--ink:#f3eaf2;--muted:#b3a5b4;--line:#3a2f3b;--accent:#ff5ca3;--card:#211a22}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:40px 20px 80px}
+h1{margin:0 0 8px;font-size:34px}
+h2{margin:48px 0 6px;font-size:24px}
+p{color:var(--muted);max-width:70ch}
+a{color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:16px}
+figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+figure img{display:block;width:100%;height:auto;background:#313338}
+figcaption{padding:10px 12px;font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<h1>Bioverse bot</h1>
+<p>Bioverse is a private community bot for one 18+ social Discord server and its Appeals and Verify servers. These images are what the bot posts in the Bioverse Discord server. <a href="privacy-policy.md">Privacy Policy</a> · <a href="terms-of-service.md">Terms of Service</a></p>
+
+<h2 id="members">Server Members intent</h2>
+<p>When a member joins, the bot starts their registration and gives roles step by step: pronoun roles, the avatar icon role and the member role after staff accept the bio. Member, role and nickname changes go to a private staff log channel. Member names and avatars appear on the bot's cards.</p>
+<div class="grid">
+<figure><img src="screenshots/instruction-pronouns.png" alt="Registration step 1 card"><figcaption>Registration starts for a new member (step 1: pronouns)</figcaption></figure>
+<figure><img src="screenshots/pronouns-trans.png" alt="Pronoun role question"><figcaption>Pronoun choice gives the matching role</figcaption></figure>
+<figure><img src="screenshots/avatar-final-look.png" alt="Avatar"><figcaption>Avatar creation gives the avatar icon role</figcaption></figure>
+<figure><img src="screenshots/bio-card.png" alt="Bio card"><figcaption>Accepted member's bio card with their name and avatar</figcaption></figure>
+<figure><img src="screenshots/leaderboard-xp.png" alt="Leaderboard"><figcaption>Leaderboard with member names</figcaption></figure>
+<figure><img src="screenshots/registration-locked.png" alt="Registration locked"><figcaption>Registration state per member</figcaption></figure>
+</div>
+
+<h2 id="content">Message Content intent</h2>
+<p>Members type their registration answers to the bot in their private registration thread; the bot reads and checks them (date format, bio length, blocked words) and asks for confirmation. Chat games read answers in the chat channel. Best friend bonds count chatting at the same time.</p>
+<div class="grid">
+<figure><img src="screenshots/pronouns-confirm.png" alt="Typed answer confirm"><figcaption>Typed answer "he" → the bot confirms what it read</figcaption></figure>
+<figure><img src="screenshots/birthday-confirm.png" alt="Birthday confirm"><figcaption>Typed birthday → read and checked for 18+</figcaption></figure>
+<figure><img src="screenshots/bio-confirm.png" alt="Bio confirm"><figcaption>Typed bio → length and content checked</figcaption></figure>
+<figure><img src="screenshots/bio-blacklist.png" alt="Blocked word"><figcaption>A blocked word in a typed bio is caught</figcaption></figure>
+<figure><img src="screenshots/instruction-complete.png" alt="Type agree"><figcaption>Member types "agree" to submit</figcaption></figure>
+<figure><img src="screenshots/submitted-bio.png" alt="Submitted"><figcaption>Bio submitted for staff review</figcaption></figure>
+<figure><img src="screenshots/game-scramble.png" alt="Word scramble"><figcaption>Chat game: members type the answer in chat</figcaption></figure>
+<figure><img src="screenshots/game-winner.png" alt="Winner"><figcaption>The first correct typed answer wins</figcaption></figure>
+<figure><img src="screenshots/bestfriend-card.png" alt="Best friend"><figcaption>Best friend bond kept alive by chatting together</figcaption></figure>
+</div>
+</main>
+</body>
+</html>
